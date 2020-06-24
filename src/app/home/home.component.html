@@ -1,0 +1,18 @@
+<ScrollView class = "fullscreen">
+  <GridLayout rows="20px, 150px, 160px,auto,auto,auto,auto,auto,*" columns="*,50px">
+    <StackLayout row="1" col="0" colSpan="2" class="p-x-20">
+      <Image src="~/app/images/deathhallow.png"></Image>
+    </StackLayout>
+    <!-- Perhatikan perbedaan Row, Rows, Rowspan, Col, Columns, Colspan -->
+    <Label text="Harry Potter Dex" class="h1 p-l-20" row="2" col="0"  colSpan="2" style="color: white; text-align: center;"></Label>
+    <Label text="Become a Wizard/Witch" class="h5 Stat-nav p-l-20" row="3" col="0"  style="color: white; "  (tap)="onTap('wizard')"></Label>
+    <Label text="Take the OWL Test" class="h5 Stat-nav p-l-20" row="4" col="0"  style="color: white; " (tap)="onTap('quiz')"></Label>
+    <Label text="Harry Potter API" class="h5 Stat-nav p-l-20" row="5" col="0"  style="color: white; " (tap)="onTap('harry')"></Label>
+    <Label text="Take the Sorting Hat Quiz" class="h5 Stat-nav p-l-20" row="6" col="0"  style="color: white; " (tap)="onTap('sortinghat')"></Label>
+    <Label text="Discover your Wand" class="h5 Stat-nav p-l-20" row="7" col="0"  style="color: white; " (tap)="onTap('wand')"></Label>
+    <Label text="Discover your Patronus" class="h5 Stat-nav p-l-20" row="8" col="0"  style="color: white; " (tap)="onTap('patronus')"></Label>
+  </GridLayout>
+</ScrollView>
+
+
+  

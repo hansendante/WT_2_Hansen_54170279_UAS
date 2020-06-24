@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "978793718211",
+    "firebase_url": "https://uas-hansen-wt2.firebaseio.com",
+    "project_id": "uas-hansen-wt2",
+    "storage_bucket": "uas-hansen-wt2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978793718211:android:55f76334393cfae8175d76",
+        "android_client_info": {
+          "package_name": "com.hansen.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978793718211-iutbf6449ajsma5d53uqstesk4s6o8tf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hansen.app",
+            "certificate_hash": "68b9ff8a08c0d691ccf1652c067a25af405e0216"
+          }
+        },
+        {
+          "client_id": "978793718211-u6evpv2eq3c7q0bl5866id9bc3i822ha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0Ve_m9w_wXKthscyI2nrPAMfSUPA18bM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978793718211-u6evpv2eq3c7q0bl5866id9bc3i822ha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
