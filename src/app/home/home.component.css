@@ -1,9 +1,9 @@
 .Stat-nav{
     padding-top: 15px;
     height: 100px;
-    background-image: url("~/app/images/bg_label.png");
+    background-color:#6b6b6b;
+    color:white;
     padding-left: 20px;
-    color: black;
     vertical-align: middle;
     font-size: 20px;
     font-weight: bolder;
@@ -12,6 +12,7 @@
   }
   .h5{
       font-size: 20px;
+      
   }
   .fullscreen {
     background-image: url('~/app/images/castle.jpg');

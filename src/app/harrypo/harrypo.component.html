@@ -1,16 +1,21 @@
-<ActionBar title="Harry Potter Dex for Potterhead" style="background-color: darkgray;color: gold;">
+<ActionBar title="Harry Potter Dex for Potterhead" style="background-color: black;color: whitesmoke;">
 </ActionBar>
 
 <GridLayout>
     <ListView [items]="hps$ | async">
         <ng-template let-item="item">
             <StackLayout>
-                <GridLayout rows="30px,30px,30px,30px" columns="100px,*">
-                    <Image [src]="item.image" row="0" col="0" rowSpan="4" backgroundColor="black"></Image>
+                <GridLayout style="background-color: black;" rows="30px,30px,30px,30px,30px,30px,30px,30px,30px" columns="100px,* ">
+                    <Image [src]="item.image" row="0" col="0" rowSpan="9" style="background-color: black;"></Image>
                     <Label [text]="item.name" row="0" col="1" style="font-weight: bold;"></Label>
-                    <Label [text]="item.species+'-'+item.gender" row="1" col="2"></Label>
-                    <Label [text]="'House: '+item.house" row="2" col="1"></Label>
-                    <Label [text]="'Wand : '+item.wand.core" row="3" col="1"></Label>
+                    <Label [text]="'Date Of Birth : '+item.dateOfBirth" row="1" col="1" style="font-weight: bold;"></Label>
+                    <Label [text]="'Race : ' +item.species+' - '+item.gender" row="2" col="2"></Label>
+                    <Label [text]="'Ancestry : ' +item.ancestry" row="3" col="1"></Label>
+                    <Label [text]="'House: '+item.house" row="4" col="1"></Label>
+                    <Label [text]="'Wand : '+item.wand.core" row="5" col="1"></Label>
+                    <Label [text]="'Patronus : '+item.patronus" row="6" col="1"></Label>
+                    <Label [text]="'Actor : '+item.actor" row="7" col="1"></Label>
+                    <Label [text]="'Alive : '+item.alive" row="8" col="1"></Label>
                 </GridLayout>
             </StackLayout>
         </ng-template>
